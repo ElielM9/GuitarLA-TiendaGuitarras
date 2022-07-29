@@ -30,53 +30,53 @@
         <!-- BARRA -->
       </div>
     </header>
-    <main class="contenedor">
-        <div class="producto">
-          <picture>
-            <source srcset="./assets/img/guitarra_04.avif" type="image/avif" />
-            <source srcset="./assets/img/guitarra_04.webp" type="image/webp" />
-            <img
-              class="producto__imagen"
-              loading="lazy"
-              width="500"
-              height="300"
-              src="./assets/img/guitarra_04.jpg"
-              alt="Imagen-Guitarra"
+    <main class="productos__contenedor">
+      <div class="producto">
+        <picture>
+          <source srcset="./assets/img/guitarra_04.avif" type="image/avif" />
+          <source srcset="./assets/img/guitarra_04.webp" type="image/webp" />
+          <img
+            class="producto__imagen"
+            loading="lazy"
+            width="500"
+            height="300"
+            src="./assets/img/guitarra_04.jpg"
+            alt="Imagen-Guitarra"
+          />
+        </picture>
+        <div class="producto__contenido">
+          <h3 class="producto__nombre">VA1</h3>
+          <p class="producto__descripcion">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo
+            debitis, porro libero, sunt repellendus distinctio, cumque
+            voluptatem accusamus veniam facilis eum quod. Dolore assumenda nisi
+            dolor unde odio porro quibusdam?
+          </p>
+          <p class="producto__precio">$3,999</p>
+          <form action="" class="producto__form">
+            <label class="producto__label" for=""> Cantidad: </label>
+            <select class="producto__cantidad" name="" id="">
+              <option value="">--Seleccionar--</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+            <input
+              class="producto__agregar-carrito"
+              type="submit"
+              value="Agregar al carrito"
             />
-          </picture>
-          <div class="producto__contenido">
-            <h3 class="producto__nombre">VA1</h3>
-            <p class="producto__descripcion">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo
-              debitis, porro libero, sunt repellendus distinctio, cumque
-              voluptatem accusamus veniam facilis eum quod. Dolore assumenda
-              nisi dolor unde odio porro quibusdam?
-            </p>
-            <p class="producto__precio">$3,999</p>
-            <form action="" class="producto__form">
-              <label class="producto__label" for=""> Cantidad: </label>
-              <select class="producto__cantidad" name="" id="">
-                <option value="">--Seleccionar--</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-                <option value="10">10</option>
-              </select>
-              <input
-                class="producto__agregar-carrito"
-                type="submit"
-                value="Agregar al carrito"
-              />
-            </form>
-          </div>
+          </form>
         </div>
-        <!-- PRODUCTO -->
+      </div>
+      <!-- PRODUCTO -->
     </main>
     <footer class="footer">
       <div class="footer__contenedor footer__grid">
